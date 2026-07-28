@@ -22,11 +22,27 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 - Uso recomendado: auditoría web, UI, UX, tipografía, color, accesibilidad, responsive, branding, landing pages y arquitectura visual.
 - Ver: `catalog/frontend-design-skills/UPSTREAM.md`
 
+### Impeccable
+- Fuente oficial: https://github.com/pbakaus/impeccable
+- Autor/proyecto: Paul Bakaus / Impeccable
+- Versión verificada al incorporar la referencia: 4.0.2
+- Licencia declarada por el proyecto: Apache License 2.0
+- Uso recomendado: diseño y rediseño frontend, auditoría UI/UX, accesibilidad, responsive, motion, tipografía, color, optimización y pulido final de interfaces.
+- Compatible con flujos de trabajo para Cursor, Claude, Codex, Gemini y otros proveedores soportados por el upstream.
+- Ver: `catalog/impeccable/UPSTREAM.md`
+
 ### Vercel Web Design Guidelines
 - Fuente oficial: https://github.com/vercel-labs/agent-skills
 - Autor/proyecto: Vercel Labs
 - Uso recomendado: auditoría final de interfaces, accesibilidad, UX, rendimiento y buenas prácticas web.
 - Ver: `catalog/vercel-web-design-guidelines/UPSTREAM.md`
+
+## Flujo recomendado
+
+1. **UI UX Pro Max** para dirección visual, componentes y fundamentos UX/UI.
+2. **Frontend Design Skills** para construcción y revisión frontend.
+3. **Impeccable** para elevar la calidad, detectar anti-patrones y realizar el pulido avanzado.
+4. **Vercel Web Design Guidelines** como control final de buenas prácticas web.
 
 ## Política de atribución
 
@@ -43,6 +59,8 @@ catalog/
   ui-ux-pro-max/
     UPSTREAM.md
   frontend-design-skills/
+    UPSTREAM.md
+  impeccable/
     UPSTREAM.md
   vercel-web-design-guidelines/
     UPSTREAM.md

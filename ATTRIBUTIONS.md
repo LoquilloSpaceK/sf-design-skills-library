@@ -16,6 +16,14 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Licencia indicada por el repositorio de origen: MIT
 - Copyright indicado por el proyecto: flitzrrr
 
+## Paul Bakaus — Impeccable
+
+- Proyecto: `pbakaus/impeccable`
+- Fuente: https://github.com/pbakaus/impeccable
+- Versión verificada al incorporar la referencia: 4.0.2
+- Licencia indicada por el repositorio de origen: Apache License 2.0
+- Se conserva como referencia al upstream oficial para evitar duplicación y versiones desactualizadas.
+
 ## Vercel Labs — Agent Skills / Web Design Guidelines
 
 - Proyecto: `vercel-labs/agent-skills`

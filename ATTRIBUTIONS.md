@@ -114,6 +114,19 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Uso interno recomendado: validación defensiva y pentesting únicamente sobre activos propios o de clientes con autorización y alcance definidos.
 - No se incorpora como dependencia de producción; debe ejecutarse desde un entorno de auditoría separado.
 
+## OWASP — Cheat Sheet Series
+
+- Proyecto: `OWASP/CheatSheetSeries`
+- Fuente: https://github.com/OWASP/CheatSheetSeries
+- Sitio oficial de referencia: https://cheatsheetseries.owasp.org
+- Rama de referencia: `master`
+- Snapshot revisado al incorporar la referencia: `c735a6edc4c645eb975754cd908296686a5b3049`
+- Índice revisado: 120 cheat sheets.
+- Licencia indicada por el proyecto: Creative Commons Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`).
+- Uso interno recomendado: referencia primaria de buenas prácticas defensivas para diseño, desarrollo, revisión y preparación de producción de proyectos WebForge.
+- No se duplican las cheat sheets dentro de esta biblioteca; se conserva un mapa original de consulta y se remite al sitio/upstream oficial.
+- Si se reutiliza o adapta contenido protegido de OWASP en material publicado, se deben respetar atribución y ShareAlike.
+
 ## Nota
 
 Los nombres, marcas, código, documentación y demás contenidos de los proyectos enlazados pertenecen a sus respectivos autores y titulares. Esta biblioteca no implica afiliación, patrocinio ni transferencia de autoría.

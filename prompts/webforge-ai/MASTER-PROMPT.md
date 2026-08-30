@@ -94,7 +94,11 @@ Cuando sea pertinente revisar exposición pública de una marca o nombre de usua
 
 `catalog/security/sherlock/CLIENT-USE-GUIDE.md`
 
-El uso de herramientas OSINT debe mantenerse dentro del alcance autorizado y limitarse a información pública necesaria para la finalidad defensiva.
+Cuando un cliente autorice una validación activa o pentest con alcance definido, Metasploit puede utilizarse como herramienta externa de auditoría siguiendo:
+
+`catalog/security/metasploit/CLIENT-USE-GUIDE.md`
+
+Metasploit no debe incorporarse como dependencia de producción ni utilizarse fuera del alcance autorizado. Preferir laboratorio o staging y recopilar únicamente la evidencia mínima necesaria para demostrar y corregir el riesgo.
 
 ## Regla de uso
 

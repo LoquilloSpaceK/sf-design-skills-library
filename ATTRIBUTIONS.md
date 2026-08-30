@@ -21,7 +21,7 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Proyecto: `pbakaus/impeccable`
 - Fuente: https://github.com/pbakaus/impeccable
 - Versión verificada al incorporar la referencia: 4.0.2
-- Licencia indicada por el repositorio de origen: Apache License 2.0
+- Licencia indicada por el proyecto: Apache License 2.0
 - Se conserva como referencia al upstream oficial para evitar duplicación y versiones desactualizadas.
 
 ## Vercel Labs — Agent Skills / Web Design Guidelines
@@ -30,6 +30,18 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Fuente: https://github.com/vercel-labs/agent-skills
 - Skill de interés: `web-design-guidelines`
 - Se conserva como referencia al upstream oficial.
+
+## Three.js
+
+- Proyecto: `mrdoob/three.js`
+- Fuente: https://github.com/mrdoob/three.js
+- Rama de referencia: `dev`
+- Snapshot fijado al incorporar la biblioteca: `ad005397bbd15b0a9fcd5159c782eba56e1cba2a`
+- Licencia indicada por el repositorio de origen: MIT
+- Copyright indicado por el proyecto: Copyright © 2010-2026 three.js authors
+- Código, manual, documentación y ejemplos se conservan enlazados al upstream oficial mediante submódulo.
+- Texto de licencia conservado en `catalog/threejs/THREEJS-LICENSE.txt`.
+- Algunos assets presentes en los ejemplos pueden tener créditos o licencias adicionales. Antes de reutilizar un modelo, textura, HDRI, fuente, audio u otro asset en un proyecto comercial, se deben revisar sus avisos específicos en el upstream.
 
 ## Nota
 

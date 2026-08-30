@@ -6,6 +6,15 @@ Biblioteca pública y aislada de recursos para diseño gráfico, UI/UX, diseño 
 
 Mantener una selección curada de skills y recursos de terceros para apoyar proyectos de clientes sin mezclar esta biblioteca con los repositorios de producción.
 
+## Prompts maestros internos
+
+### WebForge AI
+- Ruta: `prompts/webforge-ai/MASTER-PROMPT.md`
+- Uso: base para páginas web empresariales, landing pages, portales y formularios interactivos.
+- Stack base: React 18, TypeScript strict, Next.js 14 App Router, Tailwind CSS 3.4, shadcn/ui, Radix UI, Framer Motion, React Hook Form, Zod, Lucide React, Prisma, PostgreSQL, NextAuth.js, Nodemailer, ESLint, Prettier, Jest y React Testing Library.
+- Comando sugerido: `WEBFORGE: <objetivo del proyecto>`.
+- Regla: no modifica repositorios productivos por sí solo; la implementación se realiza únicamente en el proyecto autorizado.
+
 ## Recursos seleccionados
 
 ### UI UX Pro Max
@@ -108,6 +117,9 @@ Este repositorio puede almacenar referencias, documentación, instrucciones, ín
 ## Estructura
 
 ```text
+prompts/
+  webforge-ai/
+    MASTER-PROMPT.md
 catalog/
   ui-ux-pro-max/
   frontend-design-skills/

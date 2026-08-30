@@ -18,6 +18,7 @@ Sistema visual base para páginas web empresariales y formularios interactivos g
 ```css
 --font-sans: 'Inter', system-ui, sans-serif;
 --font-display: 'Poppins', sans-serif;
+--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 --text-xs: 0.75rem;
 --text-sm: 0.875rem;
 --text-base: 1rem;
@@ -35,6 +36,14 @@ La referencia oficial de Inter para WebForge está documentada en:
 `catalog/typography/inter/UPSTREAM.md`
 
 Inter se mantiene como sans predeterminada para cuerpo, UI, formularios, tablas y dashboards. En proyectos web, preferir archivos oficiales fijados por versión y self-hosting/`next/font/local` cuando esto mejore privacidad, estabilidad y rendimiento. No sustituir la tipografía de una marca existente sin autorización.
+
+### Fuente monoespaciada JetBrains Mono
+
+La referencia oficial de JetBrains Mono para WebForge está documentada en:
+
+`catalog/typography/jetbrains-mono/UPSTREAM.md`
+
+JetBrains Mono es la opción monoespaciada de referencia para bloques de código, terminales, logs, hashes, snippets y paneles técnicos. No sustituye a Inter para texto general. Cargarla solo cuando el proyecto realmente contenga contenido técnico que justifique el peso adicional.
 
 ## Spacing — grid de 8 px
 
@@ -64,3 +73,4 @@ Inter se mantiene como sans predeterminada para cuerpo, UI, formularios, tablas 
 - Mantener coherencia entre Tailwind, componentes shadcn/ui, Radix UI y animaciones Framer Motion.
 - La identidad específica del cliente puede reemplazar estos tokens cuando el proyecto autorizado tenga branding propio.
 - No imponer estos colores o tipografías sobre una marca existente si el cliente ya cuenta con manual de identidad.
+- No cargar JetBrains Mono en proyectos que no tengan una necesidad real de contenido monoespaciado.

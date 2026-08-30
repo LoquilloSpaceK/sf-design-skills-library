@@ -64,6 +64,12 @@ db_status
 
 Las técnicas específicas de explotación deben seleccionarse únicamente dentro de un pentest autorizado, con evaluación de impacto y documentación separada del repositorio público.
 
+Para cualquier material que incluya módulos de explotación, payloads, sesiones remotas, escaneo de rangos o configuración de objetivos, aplicar obligatoriamente:
+
+`catalog/security/metasploit/ACTIVE-TESTING-GUARDRAILS.md`
+
+La biblioteca pública no debe almacenar recetas operativas de explotación, payloads ejecutables, objetivos reales ni procedimientos de persistencia, evasión o movimiento lateral.
+
 ## Evidencia mínima sugerida
 
 ```text

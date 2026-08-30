@@ -1,8 +1,8 @@
 # Operaciones — Gráfica SF + Pillaki
 
-Recursos de QA, seguridad defensiva, rendimiento y monitoreo seleccionados para proyectos propios y de clientes.
+Recursos de QA, seguridad defensiva, rendimiento, monitoreo, mantenimiento y continuidad operacional seleccionados para proyectos propios y de clientes.
 
-## Wave 1
+## Wave 1 — seguridad, QA y monitoreo base
 
 Ver:
 
@@ -18,6 +18,39 @@ Herramientas seleccionadas:
 - OWASP ZAP — scanner web para activos propios o explícitamente autorizados.
 - Uptime Kuma — monitoreo self-hosted de disponibilidad y certificados.
 
+## Wave 2 — operación y mantenimiento
+
+Ver:
+
+`catalog/operations/GSF-PILLAKI-TOOLKIT-WAVE2.md`
+
+Herramientas seleccionadas:
+
+- Mailpit — pruebas seguras de correo.
+- Sharp — optimización de imágenes.
+- Lychee — enlaces rotos.
+- Dependabot — mantenimiento de dependencias.
+- Grafana k6 — pruebas de carga.
+- OpenTelemetry JS — trazas, métricas y logs.
+- Umami — analítica privacy-first opcional.
+
+## Wave 3 — datos de prueba, APIs y resiliencia
+
+Ver:
+
+`catalog/operations/GSF-PILLAKI-TOOLKIT-WAVE3.md`
+
+Herramientas seleccionadas:
+
+- Faker — datos ficticios reproducibles para QA.
+- Mock Service Worker — simulación de APIs REST/GraphQL.
+- React Email — correos transaccionales con React/TypeScript.
+- Testcontainers for Node.js — integración con servicios reales aislados.
+- Swagger UI — documentación interactiva OpenAPI.
+- Schemathesis — pruebas automáticas y edge cases de APIs.
+- restic — backups cifrados, verificables y eficientes.
+- Healthchecks — vigilancia de cron jobs y tareas programadas.
+
 ## Principio de uso
 
-La biblioteca registra y estudia herramientas; no las instala automáticamente en producción. Cada implementación requiere autorización del proyecto, revisión de versión/licencia y configuración acorde a su riesgo.
+La biblioteca registra y estudia herramientas; no las instala automáticamente en producción. Cada implementación requiere autorización del proyecto, revisión de versión/licencia y configuración acorde a su riesgo, privacidad y necesidad real.

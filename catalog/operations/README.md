@@ -51,6 +51,23 @@ Herramientas seleccionadas:
 - restic — backups cifrados, verificables y eficientes.
 - Healthchecks — vigilancia de cron jobs y tareas programadas.
 
+## Wave 4 — identidad, permisos, secretos y perímetro
+
+Ver:
+
+`catalog/operations/GSF-PILLAKI-TOOLKIT-WAVE4.md`
+
+Herramientas seleccionadas:
+
+- Better Auth — autenticación/autorización TypeScript y candidato para proyectos nuevos.
+- SOPS — cifrado de archivos de configuración y secretos versionados.
+- OWASP Core Rule Set — reglas defensivas para WAF compatibles.
+- Open Policy Agent — policy-as-code y autorización contextual.
+- OpenBao — secret manager, secretos dinámicos, leases y revocación.
+- Keycloak — IAM centralizado para escenarios empresariales/múltiples aplicaciones.
+
+Nota de arquitectura: el Prompt Maestro WebForge mantiene NextAuth.js por ahora. Better Auth queda registrado como candidato a futuro porque el propio proyecto Auth.js lo recomienda para proyectos nuevos; cualquier cambio del stack maestro debe decidirse explícitamente.
+
 ## Principio de uso
 
 La biblioteca registra y estudia herramientas; no las instala automáticamente en producción. Cada implementación requiere autorización del proyecto, revisión de versión/licencia y configuración acorde a su riesgo, privacidad y necesidad real.

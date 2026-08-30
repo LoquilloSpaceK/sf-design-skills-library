@@ -68,6 +68,22 @@ Herramientas seleccionadas:
 
 Nota de arquitectura: el Prompt Maestro WebForge mantiene NextAuth.js por ahora. Better Auth queda registrado como candidato a futuro porque el propio proyecto Auth.js lo recomienda para proyectos nuevos; cualquier cambio del stack maestro debe decidirse explícitamente.
 
+## Wave 5 — CI/CD, supply chain y despliegues controlados
+
+Ver:
+
+`catalog/operations/GSF-PILLAKI-TOOLKIT-WAVE5.md`
+
+Herramientas seleccionadas:
+
+- actionlint — validación de GitHub Actions.
+- zizmor — análisis estático de seguridad para CI/CD.
+- OpenSSF Scorecard — evaluación de prácticas de seguridad de repositorios/dependencias.
+- Cosign — firma y verificación de contenedores y artefactos.
+- Harden-Runner — observabilidad y endurecimiento de runners, según plan/compatibilidad.
+- OpenTofu — Infrastructure as Code y planes reproducibles.
+- Flagsmith — feature flags, remote config y rollouts controlados.
+
 ## Principio de uso
 
 La biblioteca registra y estudia herramientas; no las instala automáticamente en producción. Cada implementación requiere autorización del proyecto, revisión de versión/licencia y configuración acorde a su riesgo, privacidad y necesidad real.

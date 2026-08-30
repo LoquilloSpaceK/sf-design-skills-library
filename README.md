@@ -74,16 +74,28 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 - Upstream completo: `catalog/storybook/upstream/storybook`.
 - Guía Pillaki: `catalog/storybook/CLIENT-USE-GUIDE.md`.
 
+### Design Resources for Developers
+- Fuente oficial: https://github.com/bradtraversy/design-resources-for-developers
+- Autor/proyecto: Brad Traversy / comunidad
+- Licencia del repositorio índice: MIT
+- Snapshot: `e71627409ec9df19337048897b5bbb9b7d6b75df`
+- Uso recomendado: radar para descubrir recursos de UI, tipografía, color, iconos, stock, mockups, templates, animación, charts, frameworks, design systems, herramientas de diseño, compresión de imágenes e inspiración.
+- Prioridad Pillaki: media-alta como herramienta de investigación, no como dependencia de producción.
+- Regla crítica: cada recurso externo enlazado puede tener licencia, coste y condiciones propias; verificar siempre la fuente original antes de uso comercial.
+- Mapa Pillaki: `catalog/design-resources-for-developers/PILLAKI-RESOURCE-MAP.md`.
+- Upstream completo: `catalog/design-resources-for-developers/upstream/design-resources-for-developers`.
+
 ## Flujo recomendado
 
-1. **UI UX Pro Max** para dirección visual y fundamentos UX/UI.
-2. **Frontend Design Skills** para construcción y revisión frontend.
-3. **shadcn/ui** como base preferente para componentes React/Next.js personalizables.
-4. **Storybook** como laboratorio de componentes, documentación y QA antes de producción.
-5. **Material Web** solo cuando Web Components sean la mejor opción técnica.
-6. **Three.js** cuando el proyecto requiera 3D o interacción gráfica avanzada.
-7. **Impeccable** para pulido avanzado y detección de anti-patrones.
-8. **Vercel Web Design Guidelines** como control final de calidad.
+1. **Design Resources for Developers** cuando necesitemos descubrir candidatos o herramientas nuevas para una necesidad concreta.
+2. **UI UX Pro Max** para dirección visual y fundamentos UX/UI.
+3. **Frontend Design Skills** para construcción y revisión frontend.
+4. **shadcn/ui** como base preferente para componentes React/Next.js personalizables.
+5. **Storybook** como laboratorio de componentes, documentación y QA antes de producción.
+6. **Material Web** solo cuando Web Components sean la mejor opción técnica.
+7. **Three.js** cuando el proyecto requiera 3D o interacción gráfica avanzada.
+8. **Impeccable** para pulido avanzado y detección de anti-patrones.
+9. **Vercel Web Design Guidelines** como control final de calidad.
 
 ## Política de atribución
 
@@ -122,6 +134,12 @@ catalog/
     CLIENT-USE-GUIDE.md
     upstream/
       storybook/
+  design-resources-for-developers/
+    UPSTREAM.md
+    DESIGN-RESOURCES-LICENSE.md
+    PILLAKI-RESOURCE-MAP.md
+    upstream/
+      design-resources-for-developers/
 ATTRIBUTIONS.md
 ```
 

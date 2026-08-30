@@ -76,6 +76,19 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Texto de licencia conservado en `catalog/storybook/STORYBOOK-LICENSE.md`.
 - Uso recomendado: desarrollo aislado, documentación, pruebas visuales, interacción, responsive y accesibilidad de componentes antes de llevarlos a producción.
 
+## Brad Traversy — Design Resources for Developers
+
+- Proyecto: `bradtraversy/design-resources-for-developers`
+- Fuente: https://github.com/bradtraversy/design-resources-for-developers
+- Rama de referencia: `master`
+- Snapshot fijado al incorporar la biblioteca: `e71627409ec9df19337048897b5bbb9b7d6b75df`
+- Licencia indicada por el repositorio índice: MIT
+- Copyright indicado por el proyecto: Copyright (c) 2020 Brad Traversy
+- El upstream completo se conserva enlazado como submódulo en `catalog/design-resources-for-developers/upstream/design-resources-for-developers`.
+- Texto de licencia conservado en `catalog/design-resources-for-developers/DESIGN-RESOURCES-LICENSE.md`.
+- Uso recomendado: radar de descubrimiento para herramientas, librerías, assets y referencias de diseño/desarrollo.
+- Importante: la licencia del repositorio índice no concede automáticamente derechos sobre los recursos externos enlazados. Cada fuente externa debe verificarse individualmente antes de uso comercial.
+
 ## Nota
 
 Los nombres, marcas, código, documentación y demás contenidos de los proyectos enlazados pertenecen a sus respectivos autores y titulares. Esta biblioteca no implica afiliación, patrocinio ni transferencia de autoría.

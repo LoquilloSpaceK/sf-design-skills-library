@@ -1,6 +1,6 @@
 # Atribuciones
 
-Esta biblioteca reúne referencias a recursos públicos de terceros seleccionados para apoyar tareas de diseño gráfico, UI/UX, diseño web y frontend.
+Esta biblioteca reúne referencias a recursos públicos de terceros seleccionados para apoyar tareas de diseño gráfico, UI/UX, diseño web, frontend y seguridad defensiva.
 
 ## Next Level Builder — UI UX Pro Max
 
@@ -88,6 +88,18 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Texto de licencia conservado en `catalog/design-resources-for-developers/DESIGN-RESOURCES-LICENSE.md`.
 - Uso recomendado: radar de descubrimiento para herramientas, librerías, assets y referencias de diseño/desarrollo.
 - Importante: la licencia del repositorio índice no concede automáticamente derechos sobre los recursos externos enlazados. Cada fuente externa debe verificarse individualmente antes de uso comercial.
+
+## Sherlock Project
+
+- Proyecto: `sherlock-project/sherlock`
+- Fuente: https://github.com/sherlock-project/sherlock
+- Rama de referencia: `master`
+- Snapshot revisado al incorporar la guía: `9100f9d40a3274bd46f4ce903c5c6fee6f3745bc`
+- Licencia indicada por el repositorio: MIT
+- Copyright indicado por el proyecto: Copyright (c) 2019 Sherlock Project
+- Texto de licencia conservado en `catalog/security/sherlock/SHERLOCK-LICENSE.md`.
+- Uso interno recomendado: OSINT defensivo para exposición pública de marcas, nombres de usuario y activos propios o expresamente autorizados por clientes.
+- No se incorpora como dependencia de producción de sitios WebForge; se conserva como herramienta de auditoría externa y guía operativa.
 
 ## Nota
 

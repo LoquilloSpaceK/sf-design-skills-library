@@ -82,11 +82,26 @@ Usar como launcher local:
 
 El script solicita nombre de empresa, sector, colores y objetivo; genera `prompt.txt` con el encargo WebForge y `github-instructions.md` con un flujo inicial para versionar el proyecto. El código generado siempre debe revisarse, probarse y configurarse antes de producción; no se deben versionar secretos ni credenciales reales.
 
+## Seguridad base obligatoria
+
+Usar como estándar mínimo:
+
+`prompts/webforge-ai/SECURITY-BASE.md`
+
+Todo proyecto WebForge debe revisar aislamiento entre clientes, permisos y MFA, secretos fuera de Git, validación de servidor, autorización, rate limiting, headers, base de datos con mínimo privilegio, backups, privacidad, dependencias, monitoreo y respuesta a incidentes antes de considerarse listo para producción.
+
+Cuando sea pertinente revisar exposición pública de una marca o nombre de usuario propio/autorizado, puede utilizarse Sherlock como herramienta OSINT defensiva siguiendo:
+
+`catalog/security/sherlock/CLIENT-USE-GUIDE.md`
+
+El uso de herramientas OSINT debe mantenerse dentro del alcance autorizado y limitarse a información pública necesaria para la finalidad defensiva.
+
 ## Regla de uso
 
 - Usar este prompt como base cuando se soliciten webs empresariales, landing pages, portales o formularios interactivos.
 - Mantener el stack anterior como predeterminado salvo que exista una razón técnica concreta de seguridad, compatibilidad o mantenimiento que justifique proponer un cambio.
-- Complementar con los recursos de `sf-design-skills-library` cuando corresponda: shadcn/ui, Storybook, Three.js, UI/UX, auditoría y recursos de diseño.
+- Complementar con los recursos de `sf-design-skills-library` cuando corresponda: shadcn/ui, Storybook, Three.js, UI/UX, auditoría, seguridad y recursos de diseño.
+- Aplicar `SECURITY-BASE.md` como checklist mínimo antes de producción.
 - No modificar repositorios productivos solo por activar este prompt; cualquier implementación debe ejecutarse únicamente sobre el proyecto autorizado para esa tarea.
 
 ## Comando corto sugerido

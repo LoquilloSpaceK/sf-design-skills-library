@@ -4,7 +4,7 @@ Biblioteca pública y aislada de recursos para diseño gráfico, UI/UX, diseño 
 
 ## Objetivo
 
-Mantener una selección curada de skills y recursos de terceros para apoyar proyectos como Gráfica SF e Induscan, sin mezclar esta biblioteca con los repositorios de producción.
+Mantener una selección curada de skills y recursos de terceros para apoyar proyectos de clientes sin mezclar esta biblioteca con los repositorios de producción.
 
 ## Recursos seleccionados
 
@@ -28,7 +28,6 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 - Versión verificada al incorporar la referencia: 4.0.2
 - Licencia declarada por el proyecto: Apache License 2.0
 - Uso recomendado: diseño y rediseño frontend, auditoría UI/UX, accesibilidad, responsive, motion, tipografía, color, optimización y pulido final de interfaces.
-- Compatible con flujos de trabajo para Cursor, Claude, Codex, Gemini y otros proveedores soportados por el upstream.
 - Ver: `catalog/impeccable/UPSTREAM.md`
 
 ### Vercel Web Design Guidelines
@@ -40,21 +39,39 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 ### Three.js
 - Fuente oficial: https://github.com/mrdoob/three.js
 - Autor/proyecto: three.js authors / mrdoob
-- Licencia declarada por el proyecto: MIT
-- Snapshot incorporado: `ad005397bbd15b0a9fcd5159c782eba56e1cba2a`
-- Uso recomendado: escenas 3D, modelos GLTF/GLB, materiales, texturas, luces, sombras, partículas, post-processing, WebGL, WebGPU, WebXR, interacción y experiencias inmersivas para webs de clientes.
-- El upstream completo queda enlazado como submódulo en `catalog/threejs/upstream/three.js`.
-- Índice rápido: `catalog/threejs/INDEX.md`
-- Guía de uso comercial: `catalog/threejs/CLIENT-USE-GUIDE.md`
-- Atribución y fuente: `catalog/threejs/UPSTREAM.md`
+- Licencia: MIT
+- Snapshot: `ad005397bbd15b0a9fcd5159c782eba56e1cba2a`
+- Uso recomendado: escenas 3D, GLTF/GLB, partículas, iluminación, WebGL, WebGPU, WebXR y experiencias inmersivas.
+- Upstream completo: `catalog/threejs/upstream/three.js`.
+- Guía: `catalog/threejs/CLIENT-USE-GUIDE.md`.
+
+### Material Web
+- Fuente oficial: https://github.com/material-components/material-web
+- Licencia: Apache License 2.0
+- Uso recomendado: componentes Web Components para formularios, paneles y sistemas internos.
+- Estado: upstream en maintenance mode; usar de forma selectiva.
+- Referencia: `catalog/material-web/UPSTREAM.md`.
+
+### shadcn/ui
+- Fuente oficial: https://github.com/shadcn-ui/ui
+- Autor/proyecto: shadcn-ui / shadcn
+- Licencia: MIT
+- Snapshot: `683a5a9b370acdb7785a0529434e6a3b8c7e0441`
+- Uso recomendado: componentes React/Next.js completamente adaptables para landings, formularios, dashboards, portales privados, cotizadores, navegación, tablas, dialogs, drawers y sistemas administrativos.
+- Ventaja principal: el código de los componentes pasa a formar parte del propio proyecto y puede adaptarse completamente al branding del cliente.
+- Upstream completo: `catalog/shadcn-ui/upstream/ui`.
+- Guía Pillaki: `catalog/shadcn-ui/CLIENT-USE-GUIDE.md`.
+- Atribución: `catalog/shadcn-ui/UPSTREAM.md`.
 
 ## Flujo recomendado
 
-1. **UI UX Pro Max** para dirección visual, componentes y fundamentos UX/UI.
+1. **UI UX Pro Max** para dirección visual y fundamentos UX/UI.
 2. **Frontend Design Skills** para construcción y revisión frontend.
-3. **Impeccable** para elevar la calidad, detectar anti-patrones y realizar el pulido avanzado.
-4. **Three.js** cuando el proyecto requiera 3D, interacción gráfica avanzada o experiencias inmersivas.
-5. **Vercel Web Design Guidelines** como control final de buenas prácticas web.
+3. **shadcn/ui** como base preferente para componentes React/Next.js personalizables.
+4. **Material Web** solo cuando Web Components sean la mejor opción técnica.
+5. **Three.js** cuando el proyecto requiera 3D o interacción gráfica avanzada.
+6. **Impeccable** para pulido avanzado y detección de anti-patrones.
+7. **Vercel Web Design Guidelines** como control final de calidad.
 
 ## Política de atribución
 
@@ -62,19 +79,17 @@ Esta biblioteca no reclama autoría sobre los proyectos enlazados. Cada recurso 
 
 ## Regla de aislamiento
 
-Este repositorio puede almacenar referencias, documentación, instrucciones, índices y snapshots/submódulos de código **público de terceros** cuando su licencia lo permita y su atribución quede documentada. No debe almacenar datos de clientes, credenciales, bases de datos ni código privado de proyectos como Induscan, Gráfica SF o Pillaki.
+Este repositorio puede almacenar referencias, documentación, instrucciones, índices y snapshots/submódulos de código público de terceros cuando su licencia lo permita y su atribución quede documentada. No debe almacenar datos de clientes, credenciales, bases de datos ni código privado de proyectos productivos.
 
 ## Estructura
 
 ```text
 catalog/
   ui-ux-pro-max/
-    UPSTREAM.md
   frontend-design-skills/
-    UPSTREAM.md
   impeccable/
-    UPSTREAM.md
   vercel-web-design-guidelines/
+  material-web/
     UPSTREAM.md
   threejs/
     UPSTREAM.md
@@ -82,19 +97,23 @@ catalog/
     INDEX.md
     CLIENT-USE-GUIDE.md
     upstream/
-      three.js/   # submódulo oficial fijado a un commit
+      three.js/
+  shadcn-ui/
+    UPSTREAM.md
+    SHADCN-LICENSE.md
+    CLIENT-USE-GUIDE.md
+    upstream/
+      ui/
 ATTRIBUTIONS.md
 ```
 
 ## Clonar con recursos enlazados
 
-Para obtener también los submódulos:
-
 ```bash
 git clone --recurse-submodules https://github.com/LoquilloSpaceK/sf-design-skills-library.git
 ```
 
-Si el repositorio ya fue clonado:
+Para una copia ya clonada:
 
 ```bash
 git submodule update --init --recursive

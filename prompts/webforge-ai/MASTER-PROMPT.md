@@ -66,6 +66,14 @@ Usar como referencia:
 
 El flujo estándar es validar el payload, persistir el lead con Prisma, ejecutar notificación por email y tracking, y responder con JSON consistente. En producción se deben separar errores de validación de fallos internos, descartar campos anti-spam antes de persistir, aplicar rate limiting y evitar perder leads válidos por fallos secundarios de email o tracking.
 
+## SEO base
+
+Usar como referencia:
+
+`prompts/webforge-ai/SEO-BASE.md`
+
+En Next.js 14 App Router, usar Metadata API como opción predeterminada para título, descripción, canonical, Open Graph y Twitter. Complementar con JSON-LD/Schema.org pertinente al negocio real, sin inventar ratings, precios, direcciones ni otros datos estructurados. Validar canonical, tarjetas sociales, sitemap, robots y marcado estructurado antes de producción.
+
 ## Regla de uso
 
 - Usar este prompt como base cuando se soliciten webs empresariales, landing pages, portales o formularios interactivos.

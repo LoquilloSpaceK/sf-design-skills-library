@@ -28,6 +28,14 @@ Sistema visual base para páginas web empresariales y formularios interactivos g
 --text-5xl: 3rem;
 ```
 
+### Fuente base Inter
+
+La referencia oficial de Inter para WebForge está documentada en:
+
+`catalog/typography/inter/UPSTREAM.md`
+
+Inter se mantiene como sans predeterminada para cuerpo, UI, formularios, tablas y dashboards. En proyectos web, preferir archivos oficiales fijados por versión y self-hosting/`next/font/local` cuando esto mejore privacidad, estabilidad y rendimiento. No sustituir la tipografía de una marca existente sin autorización.
+
 ## Spacing — grid de 8 px
 
 ```css

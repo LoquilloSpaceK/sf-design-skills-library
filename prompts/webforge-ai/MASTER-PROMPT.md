@@ -74,6 +74,14 @@ Usar como referencia:
 
 En Next.js 14 App Router, usar Metadata API como opción predeterminada para título, descripción, canonical, Open Graph y Twitter. Complementar con JSON-LD/Schema.org pertinente al negocio real, sin inventar ratings, precios, direcciones ni otros datos estructurados. Validar canonical, tarjetas sociales, sitemap, robots y marcado estructurado antes de producción.
 
+## Generador interactivo
+
+Usar como launcher local:
+
+`prompts/webforge-ai/scripts/webforge-prompt-generator.sh`
+
+El script solicita nombre de empresa, sector, colores y objetivo; genera `prompt.txt` con el encargo WebForge y `github-instructions.md` con un flujo inicial para versionar el proyecto. El código generado siempre debe revisarse, probarse y configurarse antes de producción; no se deben versionar secretos ni credenciales reales.
+
 ## Regla de uso
 
 - Usar este prompt como base cuando se soliciten webs empresariales, landing pages, portales o formularios interactivos.

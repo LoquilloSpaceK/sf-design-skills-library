@@ -101,6 +101,19 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Uso interno recomendado: OSINT defensivo para exposición pública de marcas, nombres de usuario y activos propios o expresamente autorizados por clientes.
 - No se incorpora como dependencia de producción de sitios WebForge; se conserva como herramienta de auditoría externa y guía operativa.
 
+## Rapid7 — Metasploit Framework
+
+- Proyecto: `rapid7/metasploit-framework`
+- Fuente: https://github.com/rapid7/metasploit-framework
+- Rama de referencia: `master`
+- Snapshot revisado al incorporar la guía: `e698ea413163b31759d78603e5018552bf14ae8e`
+- Licencia principal indicada por `COPYING`: BSD de 3 cláusulas.
+- Copyright indicado por el proyecto: Copyright (C) 2006-2026, Rapid7, Inc.
+- El upstream advierte que algunos componentes del árbol pueden tener condiciones de licencia adicionales; revisar también el archivo `LICENSE` antes de redistribución o reutilización.
+- Referencia de licencia conservada en `catalog/security/metasploit/METASPLOIT-COPYING.md`.
+- Uso interno recomendado: validación defensiva y pentesting únicamente sobre activos propios o de clientes con autorización y alcance definidos.
+- No se incorpora como dependencia de producción; debe ejecutarse desde un entorno de auditoría separado.
+
 ## Nota
 
 Los nombres, marcas, código, documentación y demás contenidos de los proyectos enlazados pertenecen a sus respectivos autores y titulares. Esta biblioteca no implica afiliación, patrocinio ni transferencia de autoría.

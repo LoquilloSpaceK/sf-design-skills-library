@@ -63,6 +63,19 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Texto de licencia conservado en `catalog/shadcn-ui/SHADCN-LICENSE.md`.
 - Uso recomendado: componentes React/Next.js adaptables para formularios, dashboards, portales privados, navegación, tablas, modales y sistemas internos.
 
+## Storybook
+
+- Proyecto: `storybookjs/storybook`
+- Fuente: https://github.com/storybookjs/storybook
+- Rama estable de referencia: `main`
+- Snapshot fijado al incorporar la biblioteca: `a2db7526e1538a48bfa0529a881822e8074b2009`
+- Versión asociada al snapshot: Storybook 10.5.10
+- Licencia indicada por el repositorio de origen: MIT
+- Copyright indicado por el proyecto: Copyright (c) 2024 Storybook
+- El upstream completo se conserva enlazado como submódulo en `catalog/storybook/upstream/storybook`.
+- Texto de licencia conservado en `catalog/storybook/STORYBOOK-LICENSE.md`.
+- Uso recomendado: desarrollo aislado, documentación, pruebas visuales, interacción, responsive y accesibilidad de componentes antes de llevarlos a producción.
+
 ## Nota
 
 Los nombres, marcas, código, documentación y demás contenidos de los proyectos enlazados pertenecen a sus respectivos autores y titulares. Esta biblioteca no implica afiliación, patrocinio ni transferencia de autoría.

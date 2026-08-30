@@ -119,6 +119,22 @@ Para búsquedas de nombres de usuario, consultar la guía interna:
 
 `catalog/security/sherlock/CLIENT-USE-GUIDE.md`
 
+## 13. Validación activa y pentesting autorizado
+
+Las herramientas de validación activa, incluido Metasploit, solo deben utilizarse sobre activos propios o de clientes con autorización explícita, alcance definido y ventana de prueba acordada.
+
+- Preferir laboratorio, staging o clones del entorno antes de producción.
+- Documentar activos incluidos, técnicas permitidas, responsable y criterio de detención.
+- No ampliar el alcance a terceros, proveedores, empleados o redes vecinas.
+- Detener una prueba si aparece degradación, pérdida de datos o comportamiento inesperado.
+- Recoger solo la evidencia mínima necesaria para demostrar el riesgo.
+- Repetir la validación después de aplicar la corrección para comprobar que la exposición quedó cerrada.
+- Mantener herramientas de pentesting fuera de los servidores productivos salvo necesidad excepcional y autorización específica.
+
+Guía interna para Metasploit:
+
+`catalog/security/metasploit/CLIENT-USE-GUIDE.md`
+
 ## Checklist mínimo antes de producción
 
 - [ ] No existen secretos o `.env` reales en Git.

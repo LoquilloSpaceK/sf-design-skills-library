@@ -58,6 +58,14 @@ Usar como referencia:
 
 La plantilla define validaciones Zod para nombre, email, teléfono, empresa, servicio, presupuesto, mensaje, consentimiento y honeypot anti-spam. Los enums y reglas comerciales deben adaptarse al negocio real. La misma validación debe ejecutarse en cliente y servidor.
 
+## API Route base para leads
+
+Usar como referencia:
+
+`prompts/webforge-ai/API-ROUTE-LEADS.md`
+
+El flujo estándar es validar el payload, persistir el lead con Prisma, ejecutar notificación por email y tracking, y responder con JSON consistente. En producción se deben separar errores de validación de fallos internos, descartar campos anti-spam antes de persistir, aplicar rate limiting y evitar perder leads válidos por fallos secundarios de email o tracking.
+
 ## Regla de uso
 
 - Usar este prompt como base cuando se soliciten webs empresariales, landing pages, portales o formularios interactivos.

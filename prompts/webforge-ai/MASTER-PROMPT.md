@@ -42,6 +42,14 @@ Incluye colores empresariales, tipografías Inter/Poppins, escala tipográfica, 
 
 Cuando un cliente tenga identidad visual propia, su branding prevalece sobre estos valores base.
 
+## Arquitectura base del proyecto
+
+Usar como estructura de referencia:
+
+`prompts/webforge-ai/PROJECT-STRUCTURE.md`
+
+Esta estructura separa App Router y API routes, componentes UI, secciones comerciales, elementos compartidos, utilidades, validaciones, tipos, Prisma, assets y configuración. Puede extenderse cuando la complejidad real del proyecto lo requiera sin perder esa separación.
+
 ## Regla de uso
 
 - Usar este prompt como base cuando se soliciten webs empresariales, landing pages, portales o formularios interactivos.

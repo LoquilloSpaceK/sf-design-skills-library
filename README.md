@@ -63,15 +63,27 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 - Guía Pillaki: `catalog/shadcn-ui/CLIENT-USE-GUIDE.md`.
 - Atribución: `catalog/shadcn-ui/UPSTREAM.md`.
 
+### Storybook
+- Fuente oficial: https://github.com/storybookjs/storybook
+- Autor/proyecto: Storybook
+- Licencia: MIT
+- Snapshot estable: `a2db7526e1538a48bfa0529a881822e8074b2009` — Storybook 10.5.10
+- Uso recomendado: desarrollar, probar y documentar componentes y páginas de UI de forma aislada antes de integrarlos a producción.
+- Prioridad Pillaki: alta para proyectos con formularios, dashboards, portales, sistemas internos o una biblioteca reutilizable de componentes.
+- Combinación preferida: `shadcn/ui + Storybook` para construir componentes editables y validarlos visualmente, en responsive, interacción y accesibilidad.
+- Upstream completo: `catalog/storybook/upstream/storybook`.
+- Guía Pillaki: `catalog/storybook/CLIENT-USE-GUIDE.md`.
+
 ## Flujo recomendado
 
 1. **UI UX Pro Max** para dirección visual y fundamentos UX/UI.
 2. **Frontend Design Skills** para construcción y revisión frontend.
 3. **shadcn/ui** como base preferente para componentes React/Next.js personalizables.
-4. **Material Web** solo cuando Web Components sean la mejor opción técnica.
-5. **Three.js** cuando el proyecto requiera 3D o interacción gráfica avanzada.
-6. **Impeccable** para pulido avanzado y detección de anti-patrones.
-7. **Vercel Web Design Guidelines** como control final de calidad.
+4. **Storybook** como laboratorio de componentes, documentación y QA antes de producción.
+5. **Material Web** solo cuando Web Components sean la mejor opción técnica.
+6. **Three.js** cuando el proyecto requiera 3D o interacción gráfica avanzada.
+7. **Impeccable** para pulido avanzado y detección de anti-patrones.
+8. **Vercel Web Design Guidelines** como control final de calidad.
 
 ## Política de atribución
 
@@ -104,6 +116,12 @@ catalog/
     CLIENT-USE-GUIDE.md
     upstream/
       ui/
+  storybook/
+    UPSTREAM.md
+    STORYBOOK-LICENSE.md
+    CLIENT-USE-GUIDE.md
+    upstream/
+      storybook/
 ATTRIBUTIONS.md
 ```
 

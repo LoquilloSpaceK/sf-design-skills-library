@@ -50,6 +50,14 @@ Usar como estructura de referencia:
 
 Esta estructura separa App Router y API routes, componentes UI, secciones comerciales, elementos compartidos, utilidades, validaciones, tipos, Prisma, assets y configuración. Puede extenderse cuando la complejidad real del proyecto lo requiera sin perder esa separación.
 
+## Validación base de formularios
+
+Usar como referencia:
+
+`prompts/webforge-ai/FORM-VALIDATION.md`
+
+La plantilla define validaciones Zod para nombre, email, teléfono, empresa, servicio, presupuesto, mensaje, consentimiento y honeypot anti-spam. Los enums y reglas comerciales deben adaptarse al negocio real. La misma validación debe ejecutarse en cliente y servidor.
+
 ## Regla de uso
 
 - Usar este prompt como base cuando se soliciten webs empresariales, landing pages, portales o formularios interactivos.

@@ -135,6 +135,18 @@ Guía interna para Metasploit:
 
 `catalog/security/metasploit/CLIENT-USE-GUIDE.md`
 
+## 14. Referencia OWASP obligatoria
+
+OWASP Cheat Sheet Series se adopta como referencia defensiva primaria para revisar controles de seguridad de aplicación.
+
+Mapa interno de selección:
+
+`catalog/security/owasp-cheat-sheet-series/WEBFORGE-SECURITY-MAP.md`
+
+Antes de producción, seleccionar las cheat sheets pertinentes al proyecto y contrastar nuestra implementación con el upstream oficial. Priorizar autenticación/autorización, sesiones, validación de entrada, APIs, headers/CSP, secretos, uploads, logging, privacidad, dependencias y cadena de suministro según el alcance real.
+
+No copiar recomendaciones de forma ciega ni mantener duplicados del contenido OWASP: consultar la versión oficial y adaptar cada control a la arquitectura y al modelo de amenazas del cliente.
+
 ## Checklist mínimo antes de producción
 
 - [ ] No existen secretos o `.env` reales en Git.
@@ -149,6 +161,7 @@ Guía interna para Metasploit:
 - [ ] Logs sin secretos ni PII innecesaria.
 - [ ] Errores de producción no revelan detalles internos.
 - [ ] Formularios y flujos críticos probados.
+- [ ] Guías OWASP pertinentes revisadas y controles documentados.
 - [ ] Dominio, DNS y cuentas administrativas bajo control del propietario correcto.
 
 Este documento es una base técnica, no sustituye una evaluación específica de riesgos, requisitos contractuales o normativa aplicable a cada cliente.

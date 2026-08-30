@@ -43,7 +43,15 @@ La referencia oficial de JetBrains Mono para WebForge está documentada en:
 
 `catalog/typography/jetbrains-mono/UPSTREAM.md`
 
-JetBrains Mono es la opción monoespaciada de referencia para bloques de código, terminales, logs, hashes, snippets y paneles técnicos. No sustituye a Inter para texto general. Cargarla solo cuando el proyecto realmente contenga contenido técnico que justifique el peso adicional.
+JetBrains Mono es la opción monoespaciada predeterminada para bloques de código, terminales, logs, hashes, snippets y paneles técnicos. No sustituye a Inter para texto general. Cargarla solo cuando el proyecto realmente contenga contenido técnico que justifique el peso adicional.
+
+### Alternativa monoespaciada Fira Code
+
+La referencia oficial de Fira Code para WebForge está documentada en:
+
+`catalog/typography/fira-code/UPSTREAM.md`
+
+Fira Code puede sustituir a JetBrains Mono cuando el proyecto se beneficie especialmente de ligaduras de programación, operadores, flechas o interfaces developer-facing con alta densidad de símbolos. Evitar cargar JetBrains Mono y Fira Code simultáneamente salvo una necesidad explícita y medida.
 
 ## Spacing — grid de 8 px
 
@@ -73,4 +81,5 @@ JetBrains Mono es la opción monoespaciada de referencia para bloques de código
 - Mantener coherencia entre Tailwind, componentes shadcn/ui, Radix UI y animaciones Framer Motion.
 - La identidad específica del cliente puede reemplazar estos tokens cuando el proyecto autorizado tenga branding propio.
 - No imponer estos colores o tipografías sobre una marca existente si el cliente ya cuenta con manual de identidad.
-- No cargar JetBrains Mono en proyectos que no tengan una necesidad real de contenido monoespaciado.
+- No cargar una fuente monoespaciada en proyectos que no tengan una necesidad real de contenido técnico.
+- JetBrains Mono es la opción mono predeterminada; Fira Code es alternativa cuando sus ligaduras aporten una ventaja concreta.

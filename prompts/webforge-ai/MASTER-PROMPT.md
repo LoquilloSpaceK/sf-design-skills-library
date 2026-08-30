@@ -90,6 +90,12 @@ Usar como estándar mínimo:
 
 Todo proyecto WebForge debe revisar aislamiento entre clientes, permisos y MFA, secretos fuera de Git, validación de servidor, autorización, rate limiting, headers, base de datos con mínimo privilegio, backups, privacidad, dependencias, monitoreo y respuesta a incidentes antes de considerarse listo para producción.
 
+Usar OWASP Cheat Sheet Series como referencia defensiva primaria según el mapa:
+
+`catalog/security/owasp-cheat-sheet-series/WEBFORGE-SECURITY-MAP.md`
+
+Las guías pertinentes deben revisarse contra el upstream oficial antes de producción y adaptarse a la arquitectura real del proyecto; no duplicar ni aplicar contenido de OWASP de forma mecánica.
+
 Cuando sea pertinente revisar exposición pública de una marca o nombre de usuario propio/autorizado, puede utilizarse Sherlock como herramienta OSINT defensiva siguiendo:
 
 `catalog/security/sherlock/CLIENT-USE-GUIDE.md`
@@ -106,6 +112,7 @@ Metasploit no debe incorporarse como dependencia de producción ni utilizarse fu
 - Mantener el stack anterior como predeterminado salvo que exista una razón técnica concreta de seguridad, compatibilidad o mantenimiento que justifique proponer un cambio.
 - Complementar con los recursos de `sf-design-skills-library` cuando corresponda: shadcn/ui, Storybook, Three.js, UI/UX, auditoría, seguridad y recursos de diseño.
 - Aplicar `SECURITY-BASE.md` como checklist mínimo antes de producción.
+- Revisar las cheat sheets OWASP pertinentes antes de considerar un proyecto listo para producción.
 - No modificar repositorios productivos solo por activar este prompt; cualquier implementación debe ejecutarse únicamente sobre el proyecto autorizado para esa tarea.
 
 ## Comando corto sugerido

@@ -43,6 +43,26 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Texto de licencia conservado en `catalog/threejs/THREEJS-LICENSE.txt`.
 - Algunos assets presentes en los ejemplos pueden tener créditos o licencias adicionales. Antes de reutilizar un modelo, textura, HDRI, fuente, audio u otro asset en un proyecto comercial, se deben revisar sus avisos específicos en el upstream.
 
+## Material Web
+
+- Proyecto: `material-components/material-web`
+- Fuente: https://github.com/material-components/material-web
+- Licencia indicada por el repositorio de origen: Apache License 2.0
+- Se conserva documentación interna en `catalog/material-web/UPSTREAM.md`.
+- El proyecto upstream informa que se encuentra en maintenance mode; usar de forma selectiva y con revisión previa.
+
+## shadcn/ui
+
+- Proyecto: `shadcn-ui/ui`
+- Fuente: https://github.com/shadcn-ui/ui
+- Rama de referencia: `main`
+- Snapshot fijado al incorporar la biblioteca: `683a5a9b370acdb7785a0529434e6a3b8c7e0441`
+- Licencia indicada por el repositorio de origen: MIT
+- Copyright indicado por el proyecto: Copyright (c) 2023 shadcn
+- El upstream completo se conserva enlazado como submódulo en `catalog/shadcn-ui/upstream/ui`.
+- Texto de licencia conservado en `catalog/shadcn-ui/SHADCN-LICENSE.md`.
+- Uso recomendado: componentes React/Next.js adaptables para formularios, dashboards, portales privados, navegación, tablas, modales y sistemas internos.
+
 ## Nota
 
 Los nombres, marcas, código, documentación y demás contenidos de los proyectos enlazados pertenecen a sus respectivos autores y titulares. Esta biblioteca no implica afiliación, patrocinio ni transferencia de autoría.

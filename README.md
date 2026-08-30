@@ -37,12 +37,24 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 - Uso recomendado: auditoría final de interfaces, accesibilidad, UX, rendimiento y buenas prácticas web.
 - Ver: `catalog/vercel-web-design-guidelines/UPSTREAM.md`
 
+### Three.js
+- Fuente oficial: https://github.com/mrdoob/three.js
+- Autor/proyecto: three.js authors / mrdoob
+- Licencia declarada por el proyecto: MIT
+- Snapshot incorporado: `ad005397bbd15b0a9fcd5159c782eba56e1cba2a`
+- Uso recomendado: escenas 3D, modelos GLTF/GLB, materiales, texturas, luces, sombras, partículas, post-processing, WebGL, WebGPU, WebXR, interacción y experiencias inmersivas para webs de clientes.
+- El upstream completo queda enlazado como submódulo en `catalog/threejs/upstream/three.js`.
+- Índice rápido: `catalog/threejs/INDEX.md`
+- Guía de uso comercial: `catalog/threejs/CLIENT-USE-GUIDE.md`
+- Atribución y fuente: `catalog/threejs/UPSTREAM.md`
+
 ## Flujo recomendado
 
 1. **UI UX Pro Max** para dirección visual, componentes y fundamentos UX/UI.
 2. **Frontend Design Skills** para construcción y revisión frontend.
 3. **Impeccable** para elevar la calidad, detectar anti-patrones y realizar el pulido avanzado.
-4. **Vercel Web Design Guidelines** como control final de buenas prácticas web.
+4. **Three.js** cuando el proyecto requiera 3D, interacción gráfica avanzada o experiencias inmersivas.
+5. **Vercel Web Design Guidelines** como control final de buenas prácticas web.
 
 ## Política de atribución
 
@@ -50,7 +62,7 @@ Esta biblioteca no reclama autoría sobre los proyectos enlazados. Cada recurso 
 
 ## Regla de aislamiento
 
-Este repositorio contiene únicamente referencias, documentación e instrucciones de instalación de recursos de diseño. No debe almacenar datos de clientes, credenciales, bases de datos ni código privado de proyectos como Induscan o Gráfica SF.
+Este repositorio puede almacenar referencias, documentación, instrucciones, índices y snapshots/submódulos de código **público de terceros** cuando su licencia lo permita y su atribución quede documentada. No debe almacenar datos de clientes, credenciales, bases de datos ni código privado de proyectos como Induscan, Gráfica SF o Pillaki.
 
 ## Estructura
 
@@ -64,5 +76,26 @@ catalog/
     UPSTREAM.md
   vercel-web-design-guidelines/
     UPSTREAM.md
+  threejs/
+    UPSTREAM.md
+    THREEJS-LICENSE.txt
+    INDEX.md
+    CLIENT-USE-GUIDE.md
+    upstream/
+      three.js/   # submódulo oficial fijado a un commit
 ATTRIBUTIONS.md
+```
+
+## Clonar con recursos enlazados
+
+Para obtener también los submódulos:
+
+```bash
+git clone --recurse-submodules https://github.com/LoquilloSpaceK/sf-design-skills-library.git
+```
+
+Si el repositorio ya fue clonado:
+
+```bash
+git submodule update --init --recursive
 ```

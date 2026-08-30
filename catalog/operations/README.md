@@ -84,6 +84,24 @@ Herramientas seleccionadas:
 - OpenTofu — Infrastructure as Code y planes reproducibles.
 - Flagsmith — feature flags, remote config y rollouts controlados.
 
+## Wave 6 — observabilidad e incidentes
+
+Ver:
+
+`catalog/operations/GSF-PILLAKI-TOOLKIT-WAVE6.md`
+
+Herramientas seleccionadas:
+
+- Prometheus — métricas, series temporales, PromQL y reglas.
+- Alertmanager — agrupación, deduplicación, silencios y routing de alertas.
+- Grafana — dashboards y exploración de señales; AGPL-3.0 requiere revisión antes de redistribuir/modificar comercialmente.
+- Grafana Loki — agregación de logs; AGPL-3.0.
+- Grafana Tempo — distributed tracing compatible con OpenTelemetry; AGPL-3.0.
+- GoAlert — on-call, escalamiento y notificaciones humanas.
+- cState — status page estática MIT para comunicación de incidentes.
+
+Cachet 3.x fue evaluado pero no priorizado debido a su licencia propia actual y restricciones de redistribución. La selección demuestra que licencia y modelo de entrega pesan tanto como las capacidades técnicas.
+
 ## Principio de uso
 
 La biblioteca registra y estudia herramientas; no las instala automáticamente en producción. Cada implementación requiere autorización del proyecto, revisión de versión/licencia y configuración acorde a su riesgo, privacidad y necesidad real.

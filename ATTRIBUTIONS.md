@@ -24,6 +24,14 @@ Esta biblioteca reúne referencias a recursos públicos de terceros seleccionado
 - Licencia indicada por el proyecto: Apache License 2.0
 - Se conserva como referencia al upstream oficial para evitar duplicación y versiones desactualizadas.
 
+## Emil Kowalski — Skills for Designers and Engineers
+
+- Proyecto: `emilkowalski/skills`
+- Fuente: https://github.com/emilkowalski/skills
+- Licencia indicada por el repositorio de origen: MIT.
+- Copyright indicado por el proyecto: Copyright (c) 2026 Emil Kowalski.
+- Esta biblioteca documenta el upstream oficial sin copiar ni ejecutar los contenidos.
+
 ## Vercel Labs — Agent Skills / Web Design Guidelines
 
 - Proyecto: `vercel-labs/agent-skills`

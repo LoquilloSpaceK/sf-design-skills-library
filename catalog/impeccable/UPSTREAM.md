@@ -6,7 +6,7 @@
 - Autor/proyecto: Paul Bakaus / Impeccable
 - Versión verificada al incorporar esta referencia: 4.0.2
 - Licencia declarada por el upstream: Apache License 2.0
-- Skill principal: `.claude/skills/impeccable/SKILL.md`
+- Skill para Codex: `.agents/skills/impeccable/SKILL.md` (instalación por proyecto).
 
 ## Uso recomendado
 
@@ -24,10 +24,12 @@ Impeccable es una suite de diseño frontend orientada a elevar la calidad visual
 La instalación debe realizarse desde el upstream oficial para recibir actualizaciones y conservar correctamente licencia y atribución.
 
 ```bash
-npx impeccable skills install
+npx impeccable install --providers=codex --scope=project
 ```
 
-Para instalar específicamente en un proyecto y seleccionar proveedores compatibles, consultar la documentación vigente del repositorio oficial antes de ejecutar comandos adicionales.
+Tras instalar, reiniciar Codex; abrir `/skills` o invocar `$impeccable`. Revisar cualquier hook y aprobarlo solo después de inspeccionar su comportamiento con `/hooks`. Para proyectos existentes, comenzar con `init`, `document`, `critique` y `audit` en un componente. Los instaladores no se ejecutan en esta biblioteca ni en producción.
+
+Consulta complementaria: `catalog/operations/CODEX-DESIGN-WORKFLOW.md`. La versión 4.0.2 indicada arriba es una referencia histórica y **no** un dato de versión actual.
 
 ## Política de esta biblioteca
 

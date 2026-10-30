@@ -1,6 +1,6 @@
 # Patrón de orquestación UX/UI para proyectos Codex
 
-**Estado:** patrón reusable para proyectos autorizados. La configuración **operativa piloto** está en `LoquilloSpaceK/pillaki`, PR #96, skill `pillaki-design-orchestrator`. Esta biblioteca pública no contiene código privado, capturas, credenciales ni instrucciones de producción de clientes.
+**Estado:** patrón reusable para proyectos autorizados. La configuración **piloto** se mantiene dentro del repositorio privado del proyecto autorizado. Esta biblioteca pública no contiene código privado, capturas, credenciales ni instrucciones de producción de clientes.
 
 ## Objetivo
 

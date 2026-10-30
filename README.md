@@ -39,6 +39,13 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 - Uso recomendado: diseño y rediseño frontend, auditoría UI/UX, accesibilidad, responsive, motion, tipografía, color, optimización y pulido final de interfaces.
 - Ver: `catalog/impeccable/UPSTREAM.md`
 
+### Emil Kowalski — Skills for Designers and Engineers
+- Fuente oficial: https://github.com/emilkowalski/skills
+- Autor: Emil Kowalski
+- Licencia declarada por el repositorio: MIT.
+- Uso recomendado: auditoría de animaciones, motion accesible, optimización móvil y calidad de las interacciones.
+- Ver: `catalog/emil-kowalski/UPSTREAM.md`
+
 ### Vercel Web Design Guidelines
 - Fuente oficial: https://github.com/vercel-labs/agent-skills
 - Autor/proyecto: Vercel Labs
@@ -103,8 +110,11 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 5. **Storybook** como laboratorio de componentes, documentación y QA antes de producción.
 6. **Material Web** solo cuando Web Components sean la mejor opción técnica.
 7. **Three.js** cuando el proyecto requiera 3D o interacción gráfica avanzada.
-8. **Impeccable** para pulido avanzado y detección de anti-patrones.
-9. **Vercel Web Design Guidelines** como control final de calidad.
+8. **Impeccable** para auditar y pulir jerarquía visual, accesibilidad y comportamiento responsive.
+9. **Emil Kowalski Skills** para revisar y optimizar animaciones y experiencia táctil.
+10. **Vercel Web Design Guidelines** como control final de calidad.
+
+Integración sugerida con Codex: `catalog/operations/CODEX-DESIGN-WORKFLOW.md`. Los instaladores se ejecutan únicamente en un checkout cloud de prueba, no en esta biblioteca ni en repositorios productivos.
 
 ## Política de atribución
 
@@ -124,6 +134,8 @@ catalog/
   ui-ux-pro-max/
   frontend-design-skills/
   impeccable/
+  emil-kowalski/
+    UPSTREAM.md
   vercel-web-design-guidelines/
   material-web/
     UPSTREAM.md

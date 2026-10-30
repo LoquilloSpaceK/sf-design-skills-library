@@ -114,7 +114,7 @@ Mantener una selección curada de skills y recursos de terceros para apoyar proy
 9. **Emil Kowalski Skills** para revisar y optimizar animaciones y experiencia táctil.
 10. **Vercel Web Design Guidelines** como control final de calidad.
 
-Integración sugerida con Codex: `catalog/operations/CODEX-DESIGN-WORKFLOW.md`. Los instaladores se ejecutan únicamente en un checkout cloud de prueba, no en esta biblioteca ni en repositorios productivos.
+Integración sugerida con Codex: `catalog/operations/CODEX-DESIGN-WORKFLOW.md`. **Orquestación de todas las skills como un solo flujo:** `catalog/operations/DESIGN-SKILLS-ORCHESTRATION.md`. Los instaladores se ejecutan únicamente en un checkout cloud de prueba, no en esta biblioteca ni en repositorios productivos.
 
 ## Política de atribución
 
